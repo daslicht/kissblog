@@ -2,11 +2,20 @@
 Template.masterDetail.helpers(
 {
     posts: function() {
-       return Posts.find({}, { sort: { date: -1 }});
+        try{ 
+            return Posts.find({}, { sort: { date: -1 }});
+        }catch(e){
+
+        }
     },
 
     details: function() {
-        return Details.find( {postId:Session.get('currentPost').postId} );
+        try{
+            return Details.find( {postId:Session.get('currentPost').postId} ); 
+        }catch(e){
+
+        }
+       
     },
 
     userIsAdmin: function() {

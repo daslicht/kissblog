@@ -2,7 +2,6 @@
   "packages": {
     "router": {},
     "urlify": {},
-    "bootstrap-3": {},
     "accounts-ui-bootstrap-dropdown": {}
   }
 }

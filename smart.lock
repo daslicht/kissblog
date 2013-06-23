@@ -8,7 +8,6 @@
     "basePackages": {
       "router": {},
       "urlify": {},
-      "bootstrap-3": {},
       "accounts-ui-bootstrap-dropdown": {}
     },
     "packages": {
@@ -21,11 +20,6 @@
         "git": "https://github.com/audreyr/meteor-urlify.git",
         "tag": "v0.1.0",
         "commit": "f04d6da29890a980873b319a3e05339e299ef4ed"
-      },
-      "bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v0.2.5",
-        "commit": "739b15b41b6dc4bed2cdbe44f5fb2978b6f4a5d2"
       },
       "accounts-ui-bootstrap-dropdown": {
         "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
